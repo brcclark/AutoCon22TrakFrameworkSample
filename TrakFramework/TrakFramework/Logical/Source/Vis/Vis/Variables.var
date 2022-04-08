@@ -1,0 +1,10 @@
+VAR
+	Vis : Vis_typ;
+	SizeofVis : UDINT;
+	NumVisShuttle : USINT;
+	i : USINT;
+	pUserData : REFERENCE TO shUserData;
+	index : UINT;
+	numShuttles : USINT;
+	userDataSize : UDINT;
+END_VAR

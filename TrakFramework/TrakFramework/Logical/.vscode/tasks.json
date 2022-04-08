@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "BrAsBuild",
+      "problemMatcher": ["$BrAsBuild"],
+      "label": "BrAsBuild: Build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

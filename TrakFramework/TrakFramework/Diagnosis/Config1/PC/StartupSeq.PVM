@@ -1,0 +1,25 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=StartupSeq 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=3 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           gSimStartupIf                       StartupSeqSimIfTyp    0 "                                                               *"    0   24    1    0    0    1         
+                                    Cmds                   StartupSeqSimIfCmdsTyp    0 "                                                               *"    1   24    1    0    0    1         
+                                   Start                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                   Reset                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                    Pars                   StartupSeqSimIfParsTyp    0 "                                                               *"    1   24    1    0    0    1         
+                        StartingPosition                                    LREAL    0 "                                                            0.01"    2   14    1   10    0    0         
+                        NumberOfShuttles                                    USINT    0 "                                                              18"    2    5    1   10    0    0         
+                           ShuttleAddGap                                    LREAL    0 "                                                            0.06"    2   14    1   10    0    0         
+                          StartingSector                                    UDINT    0 "                                                        98955692"    2    7    1   10    0    0         
+                              SearchMode                                     DINT    0 "                                                               1"    2    4    1   10    0    0         
+                     SendToInitialSector                                    UDINT    0 "                                                        98956040"    2    7    1   10    0    0         
+                   SendToInitialPosition                                    LREAL    0 "                                                           0.165"    2   14    1   10    0    0         
+                 DoNotPreformInitialSend                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                  Status                 StartupSeqSimIfStatusTyp    0 "                                                               *"    1   24    1    0    0    1         
+                                   State                                     DINT    0 "                                                               0"    2    4    1   10    0    0 e,0,SIM_
+
+                                    Done                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                          CurrentShuttle                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                               ErrorInfo                  StartupSeqSimIfErrorTyp    0 "                                                               *"    2   24    1    0    0    1         
+                              ErrorState                                     DINT    0 "                                                               0"    3    4    1   10    0    0 e,0,SIM_
+
+                             ErrorNumber                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         

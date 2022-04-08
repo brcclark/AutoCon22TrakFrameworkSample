@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.3.93 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">gBundlingAssembly.scn</Object>
+    <Object Type="File">gBundlingAssembly.svg</Object>
+    <Object Type="File">gBundlingAssembly.wsp</Object>
+    <Object Type="File">gBundlingAssembly_3d.scn</Object>
+    <Object Type="File">gBundlingAssembly_GuideSystem.scn</Object>
+    <Object Type="File">Simulation.scn</Object>
+  </Objects>
+</Package>
