@@ -1,5 +1,6 @@
 
 PROGRAM _CYCLIC
+	LookupDefine;
 	//Main state machine
 	
 	//Send cmd to enable Assembly

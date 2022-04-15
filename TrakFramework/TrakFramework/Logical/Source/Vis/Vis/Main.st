@@ -43,51 +43,47 @@ PROGRAM _CYCLIC
 			
 			brsitoa(gShuttleMon.Shuttle[i].Index, ADR(Vis.Trak.Shuttle[i].Text));
 
-			pUserData.ColorRGB[0]    	:= 0.5;    //
-			pUserData.ColorRGB[1]    	:= 0.5;    // default shuttle color grey
-			pUserData.ColorRGB[2]    	:= 0.5;    //
-			
 			// example: set shuttle colour via user data
-			IF gShuttleMon.Shuttle[i].UserData <> 0 THEN  
-				pUserData ACCESS gShuttleMon.Shuttle[i].UserData;    // access to user data of this shuttle
-				IF pUserData.ColorEnum = COLOR_GREEN THEN    // product 1 -> display shuttle in green color
-					pUserData.ColorRGB[0]    := 0.0;
-					pUserData.ColorRGB[1]    := 1.0;
-					pUserData.ColorRGB[2]    := 0.0;
-				ELSIF pUserData.ColorEnum = COLOR_BLUE THEN    // product 2 -> display shuttle in blue color
-					pUserData.ColorRGB[0]    := 0.0;
-					pUserData.ColorRGB[1]    := 0.0;
-					pUserData.ColorRGB[2]    := 1.0;
-				ELSIF pUserData.ColorEnum = COLOR_RED THEN    // product 3 -> display shuttle in red color
-					pUserData.ColorRGB[0]    := 1.0;
-					pUserData.ColorRGB[1]    := 0.0;
-					pUserData.ColorRGB[2]    := 0.0;
-				ELSIF pUserData.ColorEnum = COLOR_YELLOW THEN
-					pUserData.ColorRGB[0]    := 0.8;
-					pUserData.ColorRGB[1]    := 0.8;
-					pUserData.ColorRGB[2]    := 0.0;
-				ELSIF pUserData.ColorEnum = COLOR_WHITE THEN
-					pUserData.ColorRGB[0]    := 1.0;
-					pUserData.ColorRGB[1]    := 1.0;
-					pUserData.ColorRGB[2]    := 1.0;
-				ELSIF pUserData.ColorEnum = COLOR_ORANGE THEN
-					pUserData.ColorRGB[0]    := 1.0;
-					pUserData.ColorRGB[1]    := 0.5;
-					pUserData.ColorRGB[2]    := 0;
-				ELSIF pUserData.ColorEnum = COLOR_CYAN THEN
-					pUserData.ColorRGB[0]    := 0;
-					pUserData.ColorRGB[1]    := 1.0;
-					pUserData.ColorRGB[2]    := 1.0;
-				ELSIF pUserData.ColorEnum = COLOR_BLACK THEN
-					pUserData.ColorRGB[0]    := 0;
-					pUserData.ColorRGB[1]    := 0;
-					pUserData.ColorRGB[2]    := 0;
-				ELSIF pUserData.ColorEnum = COLOR_PINK THEN
-					pUserData.ColorRGB[0]    := 1;
-					pUserData.ColorRGB[1]    := 0;
-					pUserData.ColorRGB[2]    := 0.5;
-				END_IF  
-			END_IF
+//			IF gShuttleMon.Shuttle[i].UserData <> 0 THEN  
+//				pUserData ACCESS gShuttleMon.Shuttle[i].UserData;    // access to user data of this shuttle
+//				IF pUserData.ColorEnum = COLOR_GREEN THEN    // product 1 -> display shuttle in green color
+//					pUserData.ColorRGB[0]    := 0.0;
+//					pUserData.ColorRGB[1]    := 1.0;
+//					pUserData.ColorRGB[2]    := 0.0;
+//				ELSIF pUserData.ColorEnum = COLOR_BLUE THEN    // product 2 -> display shuttle in blue color
+//					pUserData.ColorRGB[0]    := 0.0;
+//					pUserData.ColorRGB[1]    := 0.0;
+//					pUserData.ColorRGB[2]    := 1.0;
+//				ELSIF pUserData.ColorEnum = COLOR_RED THEN    // product 3 -> display shuttle in red color
+//					pUserData.ColorRGB[0]    := 1.0;
+//					pUserData.ColorRGB[1]    := 0.0;
+//					pUserData.ColorRGB[2]    := 0.0;
+//				ELSIF pUserData.ColorEnum = COLOR_YELLOW THEN
+//					pUserData.ColorRGB[0]    := 0.8;
+//					pUserData.ColorRGB[1]    := 0.8;
+//					pUserData.ColorRGB[2]    := 0.0;
+//				ELSIF pUserData.ColorEnum = COLOR_WHITE THEN
+//					pUserData.ColorRGB[0]    := 1.0;
+//					pUserData.ColorRGB[1]    := 1.0;
+//					pUserData.ColorRGB[2]    := 1.0;
+//				ELSIF pUserData.ColorEnum = COLOR_ORANGE THEN
+//					pUserData.ColorRGB[0]    := 1.0;
+//					pUserData.ColorRGB[1]    := 0.5;
+//					pUserData.ColorRGB[2]    := 0;
+//				ELSIF pUserData.ColorEnum = COLOR_CYAN THEN
+//					pUserData.ColorRGB[0]    := 0;
+//					pUserData.ColorRGB[1]    := 1.0;
+//					pUserData.ColorRGB[2]    := 1.0;
+//				ELSIF pUserData.ColorEnum = COLOR_BLACK THEN
+//					pUserData.ColorRGB[0]    := 0;
+//					pUserData.ColorRGB[1]    := 0;
+//					pUserData.ColorRGB[2]    := 0;
+//				ELSIF pUserData.ColorEnum = COLOR_PINK THEN
+//					pUserData.ColorRGB[0]    := 1;
+//					pUserData.ColorRGB[1]    := 0;
+//					pUserData.ColorRGB[2]    := 0.5;
+//				END_IF  
+//			END_IF
 			
 		ELSE
 			brsmemset(ADR(Vis.Trak.Shuttle[i]), 0, SIZEOF(Vis.Trak.Shuttle[0]));

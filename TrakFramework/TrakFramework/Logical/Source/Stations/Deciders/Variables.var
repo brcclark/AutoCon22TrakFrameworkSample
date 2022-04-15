@@ -1,0 +1,5 @@
+VAR
+	loopDeciderFb : DeciderStationFb;
+	proc2Fb : DeciderStationFb;
+	proc1Fb : DeciderStationFb;
+END_VAR

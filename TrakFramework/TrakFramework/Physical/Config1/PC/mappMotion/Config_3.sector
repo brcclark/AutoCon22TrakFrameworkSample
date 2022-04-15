@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
 <Configuration>
   <Element ID="secStartup" Type="sector">
     <Selector ID="Type" Value="Composed">
@@ -22,6 +23,7 @@
         <Property ID="PositionRelativeTo" Value="FromEnd" />
       </Group>
     </Selector>
+    <Selector ID="Alarms" Value="None" />
   </Element>
   <Element ID="secLoadDecision" Type="sector">
     <Selector ID="Type" Value="Composed">
@@ -33,52 +35,30 @@
         <Property ID="PositionRelativeTo" Value="FromEnd" />
       </Group>
     </Selector>
+    <Selector ID="Alarms" Value="None" />
   </Element>
-  <Element ID="secCell1Operate" Type="sector">
+  <Element ID="secProcess1" Type="sector">
     <Selector ID="Type" Value="Composed">
       <Group ID="StartSegment">
-        <Property ID="SegmentRef" Value="::gCell1_Load_0" />
-      </Group>
-      <Group ID="IntermediateSegments">
-        <Property ID="SegmentRef[1]" Value="::gCell1_Load_1" />
-        <Property ID="SegmentRef[2]" Value="::gCell1_Load_2" />
+        <Property ID="SegmentRef" Value="::gCell1_Load_2" />
       </Group>
       <Group ID="EndSegment">
-        <Property ID="SegmentRef" Value="::gCell1_Load_3" />
+        <Property ID="SegmentRef" Value="::gCell1_Load_2" />
         <Property ID="PositionRelativeTo" Value="FromEnd" />
       </Group>
     </Selector>
+    <Selector ID="Alarms" Value="None" />
   </Element>
-  <Element ID="secCell2Operate" Type="sector">
+  <Element ID="secProcess2" Type="sector">
     <Selector ID="Type" Value="Composed">
       <Group ID="StartSegment">
-        <Property ID="SegmentRef" Value="::gCell2_Load_0" />
-      </Group>
-      <Group ID="IntermediateSegments">
-        <Property ID="SegmentRef[1]" Value="::gCell2_Load_1" />
-        <Property ID="SegmentRef[2]" Value="::gCell2_Load_2" />
+        <Property ID="SegmentRef" Value="::gCell2_Load_2" />
       </Group>
       <Group ID="EndSegment">
-        <Property ID="SegmentRef" Value="::gCell2_Load_3" />
+        <Property ID="SegmentRef" Value="::gCell2_Load_2" />
         <Property ID="PositionRelativeTo" Value="FromEnd" />
       </Group>
     </Selector>
-  </Element>
-  <Element ID="secOffloadOperate" Type="sector">
-    <Selector ID="Type" Value="Composed">
-      <Group ID="StartSegment">
-        <Property ID="SegmentRef" Value="::gCenterLoop_16" />
-      </Group>
-      <Group ID="IntermediateSegments">
-        <Property ID="SegmentRef[1]" Value="::gCenterLoop_17" />
-        <Property ID="SegmentRef[2]" Value="::gCenterLoop_18" />
-        <Property ID="SegmentRef[3]" Value="::gCenterLoop_19" />
-      </Group>
-      <Group ID="EndSegment">
-        <Property ID="SegmentRef" Value="::gCenterLoop_20" />
-        <Property ID="Position" Value="0.33" />
-        <Property ID="PositionRelativeTo" Value="FromEnd" />
-      </Group>
-    </Selector>
+    <Selector ID="Alarms" Value="None" />
   </Element>
 </Configuration>

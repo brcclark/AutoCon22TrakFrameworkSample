@@ -450,13 +450,13 @@
 		<ParID parid="100" val="0"/>
 		<ParID parid="101" val="0"/>
 		<ParID parid="102" val="0"/>
-		<ParID parid="103" val="180"/>
+		<ParID parid="103" val="0"/>
 		<ParID parid="104" val="-0"/>
-		<ParID parid="105" val="180"/>
+		<ParID parid="105" val="0"/>
 		<ParID parid="106" val="1"/>
 		<ParID parid="107" val="1"/>
 		<ParID parid="108" val="1"/>
-		<ParID parid="120" val="gBundlingAssembly.wsp"/>
+		<ParID parid="120" val="gTestAssembly.wsp"/>
 	</Object>
 	<Object objecttypeid="250" name="Shuttles" visible="1">
 		<ParID parid="100" val="0"/>
@@ -471,7 +471,7 @@
 			<ParID parid="101" val="0"/>
 			<ParID parid="102" val="0"/>
 			<ParID parid="119" val="2"/>
-			<ParID parid="200" val="gBundlingAssembly"/>
+			<ParID parid="200" val="gTestAssembly"/>
 		</Object>
 		<Object objecttypeid="560" name="Shuttle" visible="1" mask="#14:0#100:4#101:8#103:12#130:16#140:48#120:60#121:64#122:68">
 			<ParID parid="100" val="0"/>

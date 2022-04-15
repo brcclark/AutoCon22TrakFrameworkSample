@@ -1,8 +1,6 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	state : AssemblyStatesEnum;
+	errorState : AssemblyStatesEnum;
+	fbs : AsmFbsTyp;
+	userData : shUserData;
 END_VAR

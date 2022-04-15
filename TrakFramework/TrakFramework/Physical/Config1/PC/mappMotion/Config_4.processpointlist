@@ -1,197 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
 <Configuration>
   <Element ID="ProcessPointList_1" Type="processpointlist">
     <Selector ID="ProcessPoint[0]">
-      <Property ID="Name" Value="ppCellDecision" />
+      <Property ID="Name" Value="ppLoadDecision" />
       <Property ID="SectorRef" Value="secLoadDecision" />
       <Property ID="TriggerEventBufferSize" Value="10" />
       <Selector ID="BarrierFunctionality" Value="Off" />
     </Selector>
     <Selector ID="ProcessPoint[1]">
-      <Property ID="Name" Value="ppCell1LoadDecision" />
-      <Property ID="SectorRef" Value="secCell1Operate" />
+      <Property ID="Name" Value="ppProcess1" />
+      <Property ID="SectorRef" Value="secProcess1" />
       <Property ID="Position" Value="0.00" />
-      <Property ID="TriggerEventBufferSize" Value="12" />
+      <Property ID="TriggerEventBufferSize" Value="10" />
       <Selector ID="BarrierFunctionality" Value="Off" />
     </Selector>
     <Selector ID="ProcessPoint[2]">
-      <Property ID="Name" Value="ppCell2LoadDecision" />
-      <Property ID="SectorRef" Value="secCell2Operate" />
-      <Property ID="Position" Value="0.00" />
-      <Property ID="TriggerEventBufferSize" Value="12" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[3]">
-      <Property ID="Name" Value="ppCell1Operate1" />
-      <Property ID="SectorRef" Value="secCell1Operate" />
-      <Property ID="Position" Value="1.68" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[4]">
-      <Property ID="Name" Value="ppCell1Operate2" />
-      <Property ID="SectorRef" Value="secCell1Operate" />
-      <Property ID="Position" Value="1.74" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[5]">
-      <Property ID="Name" Value="ppCell1Operate3" />
-      <Property ID="SectorRef" Value="secCell1Operate" />
-      <Property ID="Position" Value="1.8" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[6]">
-      <Property ID="Name" Value="ppCell1Operate4" />
-      <Property ID="SectorRef" Value="secCell1Operate" />
-      <Property ID="Position" Value="1.86" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[7]">
-      <Property ID="Name" Value="ppCell1Operate5" />
-      <Property ID="SectorRef" Value="secCell1Operate" />
-      <Property ID="Position" Value="1.92" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[8]">
-      <Property ID="Name" Value="ppCell1Operate6" />
-      <Property ID="SectorRef" Value="secCell1Operate" />
-      <Property ID="Position" Value="1.98" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[9]">
-      <Property ID="Name" Value="ppCell2Operate1" />
-      <Property ID="SectorRef" Value="secCell2Operate" />
-      <Property ID="Position" Value="1.68" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[10]">
-      <Property ID="Name" Value="ppCell2Operate2" />
-      <Property ID="SectorRef" Value="secCell2Operate" />
-      <Property ID="Position" Value="1.74" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[11]">
-      <Property ID="Name" Value="ppCell2Operate3" />
-      <Property ID="SectorRef" Value="secCell2Operate" />
-      <Property ID="Position" Value="1.8" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[12]">
-      <Property ID="Name" Value="ppCell2Operate4" />
-      <Property ID="SectorRef" Value="secCell2Operate" />
-      <Property ID="Position" Value="1.86" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[13]">
-      <Property ID="Name" Value="ppCell2Operate5" />
-      <Property ID="SectorRef" Value="secCell2Operate" />
-      <Property ID="Position" Value="1.92" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[14]">
-      <Property ID="Name" Value="ppCell2Operate6" />
-      <Property ID="SectorRef" Value="secCell2Operate" />
-      <Property ID="Position" Value="1.98" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[15]">
-      <Property ID="Name" Value="ppOffloadDecision" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[16]">
-      <Property ID="Name" Value="ppOffloadOperate1" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="1.77" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[17]">
-      <Property ID="Name" Value="ppOffloadOperate2" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="1.83" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[18]">
-      <Property ID="Name" Value="ppOffloadOperate3" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="1.89" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[19]">
-      <Property ID="Name" Value="ppOffloadOperate4" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="1.95" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[20]">
-      <Property ID="Name" Value="ppOffloadOperate5" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="2.01" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[21]">
-      <Property ID="Name" Value="ppOffloadOperate6" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="2.07" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[22]">
-      <Property ID="Name" Value="ppOffloadOperate7" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="2.13" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[23]">
-      <Property ID="Name" Value="ppOffloadOperate8" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="2.19" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[24]">
-      <Property ID="Name" Value="ppOffloadOperate9" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="2.25" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[25]">
-      <Property ID="Name" Value="ppOffloadOperate10" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="2.31" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[26]">
-      <Property ID="Name" Value="ppOffloadOperate11" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="2.37" />
-      <Property ID="TriggerEventBufferSize" Value="10" />
-      <Selector ID="BarrierFunctionality" Value="Off" />
-    </Selector>
-    <Selector ID="ProcessPoint[27]">
-      <Property ID="Name" Value="ppOffloadOperate12" />
-      <Property ID="SectorRef" Value="secOffloadOperate" />
-      <Property ID="Position" Value="2.43" />
+      <Property ID="Name" Value="ppProcess2" />
+      <Property ID="SectorRef" Value="secProcess2" />
+      <Property ID="Position" Value="0" />
       <Property ID="TriggerEventBufferSize" Value="10" />
       <Selector ID="BarrierFunctionality" Value="Off" />
     </Selector>

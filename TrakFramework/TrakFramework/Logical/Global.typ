@@ -1,24 +1,3 @@
-
-TYPE
-	shUserData : 	STRUCT 
-		ColorEnum : Colors_Typ;
-		ColorRGB : ARRAY[0..2]OF REAL;
-		Destination : SystemDestinationsEnum;
-	END_STRUCT;
-	Colors_Typ : 
-		(
-		COLOR_RED,
-		COLOR_GREEN,
-		COLOR_BLUE,
-		COLOR_YELLOW,
-		COLOR_WHITE,
-		COLOR_ORANGE,
-		COLOR_CYAN,
-		COLOR_BLACK,
-		COLOR_PINK
-		);
-END_TYPE
-
 (*Main Interfaces Types*)
 
 TYPE
@@ -34,9 +13,9 @@ TYPE
 		ShowError : BOOL;
 	END_STRUCT;
 	MainIfParTyp : 	STRUCT 
-		DefaultVelocity : LREAL;
-		DefaultAccel : LREAL;
-		DefaultDecel : LREAL;
+		DefaultVelocity : REAL;
+		DefaultAccel : REAL;
+		DefaultDecel : REAL;
 	END_STRUCT;
 	MainIfStsTyp : 	STRUCT 
 		TrakPowered : BOOL;
@@ -59,8 +38,9 @@ TYPE
 		Reset : BOOL;
 	END_STRUCT;
 	AcpTrakAsmParTyp : 	STRUCT 
+		NumShuttles : USINT;
 		Startup : AcpTrakAsmStartupParTyp;
-		FirstMove : AcpTrakAsmStartupParTyp;
+		FirstMove : SystemDestinationsEnum;
 	END_STRUCT;
 	AcpTrakAsmStartupParTyp : 	STRUCT 
 		Sector : McSectorType;
@@ -71,5 +51,8 @@ TYPE
 		Powered : BOOL;
 		WaitingToStart : BOOL;
 		Running : BOOL;
+		CurrentShuttleIdx : USINT;
+		Error : BOOL;
+		ErrorID : UDINT;
 	END_STRUCT;
 END_TYPE

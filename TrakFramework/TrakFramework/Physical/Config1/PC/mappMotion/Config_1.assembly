@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Configuration>
-  <Element ID="gBundlingAssembly" Type="assembly">
+  <Element ID="gTestAssembly" Type="assembly">
     <Group ID="Tracks">
       <Property ID="TrackSeparation" Value="0.030" />
       <Group ID="Track[1]">
@@ -203,9 +203,6 @@
             <Property ID="PositionError" Value="0.0" />
             <Property ID="VelocityError" Value="0.0" />
           </Group>
-          <Group ID="Diverter">
-            <Property ID="ForceOverride" Value="1.0" />
-          </Group>
         </Group>
         <Selector ID="AdditionalParameterSets" Value="NotUsed" />
       </Group>
@@ -243,6 +240,5 @@
       <Property ID="MonitoringPv" Value="::gShuttleMon" />
       <Property ID="ProcessingTaskClass" Value="1" />
     </Group>
-    <Selector ID="Alarms" Value="None" />
   </Element>
 </Configuration>
