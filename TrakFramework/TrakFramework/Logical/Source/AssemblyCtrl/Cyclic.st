@@ -9,7 +9,9 @@ PROGRAM _CYCLIC
 	//Power Off the assembly
 	//Error
 	//Reset
-	 
+	
+		MpAlarmXCore_0.MpLink := ADR(gAlarmXCore);
+	 MpAlarmXCore_0();
 	
 	CASE state OF
 		//******************************************************************** Idle State
@@ -90,7 +92,7 @@ PROGRAM _CYCLIC
 				
 				state := ASM_ADD_SHUTTLE;
 			END_IF
-		//******************************************************************** Idle State
+		//******************************************************************** Wait For Start Command
 		ASM_WAIT_START:
 			IF gAsmIf.Cmd.Run THEN
 								
@@ -99,7 +101,6 @@ PROGRAM _CYCLIC
 				
 				state := ASM_GET_SHUTTLE;				
 			END_IF
-		//******************************************************************** Idle State
 		ASM_GET_SHUTTLE:
 			IF fbs.AsmGetShFb.Error THEN
 				errorState := state;
@@ -124,7 +125,7 @@ PROGRAM _CYCLIC
 					fbs.RoutedMoveVelFb.RouteVelocity := gMainIf.Par.DefaultVelocity;
 					fbs.RoutedMoveVelFb.Acceleration := gMainIf.Par.DefaultAccel;
 					fbs.RoutedMoveVelFb.Deceleration := gMainIf.Par.DefaultDecel;
-					fbs.RoutedMoveVelFb.AdvancedParameters.StartDirection := mcDIR_POSITIVE;
+					fbs.RoutedMoveVelFb.AdvancedParameters.StartDirection := mcDIR_UNDEFINED;
 					fbs.RoutedMoveVelFb.Execute := TRUE;
 				
 				
@@ -133,7 +134,6 @@ PROGRAM _CYCLIC
 				
 			END_IF
 			
-		//******************************************************************** Idle State
 		ASM_SEND_SHUTTLE:
 			IF fbs.RoutedMoveVelFb.Error THEN
 				errorState := state;
@@ -158,9 +158,11 @@ PROGRAM _CYCLIC
 		//******************************************************************** Idle State
 		ASM_RUNNING:
 			IF gAsmIf.Cmd.TriggerError THEN
+				//Trigger User Created Error Reaction
 				fbs.SegCmdErrorFb.Segment := ADR(gCenterLoop_0);
 				fbs.SegCmdErrorFb.Execute := TRUE;
 				fbs.SegCmdErrorFb.Command := mcERROR_STOP_CMD;
+				
 				
 				gAsmIf.Cmd.TriggerError := FALSE;
 				gAsmIf.Cmd.Run := FALSE;

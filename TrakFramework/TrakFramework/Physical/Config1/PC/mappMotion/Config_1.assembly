@@ -243,6 +243,6 @@
       <Property ID="MonitoringPv" Value="::gShuttleMon" />
       <Property ID="ProcessingTaskClass" Value="1" />
     </Group>
-    <Selector ID="Alarms" Value="None" />
+    <Selector ID="Alarms" Value="SharedAlarms" />
   </Element>
 </Configuration>

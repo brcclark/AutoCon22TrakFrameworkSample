@@ -23,7 +23,7 @@
         <Property ID="PositionRelativeTo" Value="FromEnd" />
       </Group>
     </Selector>
-    <Selector ID="Alarms" Value="None" />
+    <Selector ID="Alarms" Value="MpAlarmX" />
   </Element>
   <Element ID="secLoadDecision" Type="sector">
     <Selector ID="Type" Value="Composed">
@@ -35,7 +35,7 @@
         <Property ID="PositionRelativeTo" Value="FromEnd" />
       </Group>
     </Selector>
-    <Selector ID="Alarms" Value="None" />
+    <Selector ID="Alarms" Value="MpAlarmX" />
   </Element>
   <Element ID="secProcess1" Type="sector">
     <Selector ID="Type" Value="Composed">
@@ -47,7 +47,7 @@
         <Property ID="PositionRelativeTo" Value="FromEnd" />
       </Group>
     </Selector>
-    <Selector ID="Alarms" Value="None" />
+    <Selector ID="Alarms" Value="MpAlarmX" />
   </Element>
   <Element ID="secProcess2" Type="sector">
     <Selector ID="Type" Value="Composed">
@@ -59,6 +59,6 @@
         <Property ID="PositionRelativeTo" Value="FromEnd" />
       </Group>
     </Selector>
-    <Selector ID="Alarms" Value="None" />
+    <Selector ID="Alarms" Value="MpAlarmX" />
   </Element>
 </Configuration>

@@ -3,4 +3,5 @@ VAR
 	errorState : AssemblyStatesEnum;
 	fbs : AsmFbsTyp;
 	userData : shUserData;
+	MpAlarmXCore_0 : MpAlarmXCore;
 END_VAR
