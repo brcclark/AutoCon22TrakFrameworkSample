@@ -36,6 +36,7 @@ TYPE
 		Power : BOOL;
 		Run : BOOL;
 		Reset : BOOL;
+		TriggerError : BOOL;
 	END_STRUCT;
 	AcpTrakAsmParTyp : 	STRUCT 
 		NumShuttles : USINT;
@@ -54,5 +55,6 @@ TYPE
 		CurrentShuttleIdx : USINT;
 		Error : BOOL;
 		ErrorID : UDINT;
+		ShuttlesSpawned : BOOL;
 	END_STRUCT;
 END_TYPE

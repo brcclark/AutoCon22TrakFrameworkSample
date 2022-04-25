@@ -78,7 +78,7 @@ FUNCTION_BLOCK procWrapper
 					OR NOT Pars.DestinationCheck THEN
 					ShPresent := TRUE;
 					
-					shSetColor(Pars.Dest.Color,ADR(int.Shuttle.UserData.ColorRGB));
+					int.Shuttle.UserData.Color := Pars.Dest.Color;
 					int.Shuttle.UserData.Destination := Pars.Dest.Destination;
 					
 					int.Fbs.ShCopyDataFb.Execute := TRUE;

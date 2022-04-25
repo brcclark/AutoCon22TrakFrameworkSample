@@ -11,7 +11,26 @@
     <Module Name="&lt;Default&gt;">
       <GlobalVariables Name="Global Variables">
         <Variable Name="gTestAssembly" />
+        <Variable Name="gAsmIf">
+          <Variable Name="Cmd">
+            <Variable Name="Power" />
+            <Variable Name="Run" />
+            <Variable Name="Reset" />
+            <Variable Name="TriggerError" />
+          </Variable>
+        </Variable>
       </GlobalVariables>
+      <Task Name="TrakDiag">
+        <Variable Name="paperCore">
+          <Variable Name="SvgTransform" />
+          <Variable Name="SvgContent" />
+          <Variable Name="ClickData" AutomaticEnable="True" />
+          <Variable Name="ReadClickID" />
+          <Variable Name="ClickID" />
+        </Variable>
+        <Variable Name="ShuttleUserData" AutomaticEnable="True" />
+        <Variable Name="TrakDiag" />
+      </Task>
     </Module>
   </DefaultView>
 </OpcUaSource>

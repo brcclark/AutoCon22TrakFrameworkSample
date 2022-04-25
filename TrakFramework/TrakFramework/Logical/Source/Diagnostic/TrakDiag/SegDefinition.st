@@ -1,0 +1,83 @@
+//This file was automatically generated using the TrakMapImporter program. Verify that the segment names and assembly name match your project values correctly
+ACTION SegDefinition: 
+	TrakDiag.Seg.SegList[0].Name  := 'gCenterLoop_0';		TrakDiag.Seg.SegList[0].McType := gCenterLoop_0;
+	TrakDiag.Seg.SegList[1].Name  := 'gCenterLoop_1';		TrakDiag.Seg.SegList[1].McType := gCenterLoop_1;
+	TrakDiag.Seg.SegList[2].Name  := 'gCenterLoop_2';		TrakDiag.Seg.SegList[2].McType := gCenterLoop_2;
+	TrakDiag.Seg.SegList[3].Name  := 'gCenterLoop_3';		TrakDiag.Seg.SegList[3].McType := gCenterLoop_3;
+	TrakDiag.Seg.SegList[4].Name  := 'gCenterLoop_4';		TrakDiag.Seg.SegList[4].McType := gCenterLoop_4;
+	TrakDiag.Seg.SegList[5].Name  := 'gCenterLoop_5';		TrakDiag.Seg.SegList[5].McType := gCenterLoop_5;
+	TrakDiag.Seg.SegList[6].Name  := 'gCenterLoop_6';		TrakDiag.Seg.SegList[6].McType := gCenterLoop_6;
+	TrakDiag.Seg.SegList[7].Name  := 'gCenterLoop_7';		TrakDiag.Seg.SegList[7].McType := gCenterLoop_7;
+	TrakDiag.Seg.SegList[8].Name  := 'gCenterLoop_8';		TrakDiag.Seg.SegList[8].McType := gCenterLoop_8;
+	TrakDiag.Seg.SegList[9].Name  := 'gCenterLoop_9';		TrakDiag.Seg.SegList[9].McType := gCenterLoop_9;
+	TrakDiag.Seg.SegList[10].Name  := 'gCenterLoop_10';		TrakDiag.Seg.SegList[10].McType := gCenterLoop_10;
+	TrakDiag.Seg.SegList[11].Name  := 'gCenterLoop_11';		TrakDiag.Seg.SegList[11].McType := gCenterLoop_11;
+	TrakDiag.Seg.SegList[12].Name  := 'gCenterLoop_12';		TrakDiag.Seg.SegList[12].McType := gCenterLoop_12;
+	TrakDiag.Seg.SegList[13].Name  := 'gCenterLoop_13';		TrakDiag.Seg.SegList[13].McType := gCenterLoop_13;
+	TrakDiag.Seg.SegList[14].Name  := 'gCenterLoop_14';		TrakDiag.Seg.SegList[14].McType := gCenterLoop_14;
+	TrakDiag.Seg.SegList[15].Name  := 'gCenterLoop_15';		TrakDiag.Seg.SegList[15].McType := gCenterLoop_15;
+	TrakDiag.Seg.SegList[16].Name  := 'gCenterLoop_16';		TrakDiag.Seg.SegList[16].McType := gCenterLoop_16;
+	TrakDiag.Seg.SegList[17].Name  := 'gCenterLoop_17';		TrakDiag.Seg.SegList[17].McType := gCenterLoop_17;
+	TrakDiag.Seg.SegList[18].Name  := 'gCenterLoop_18';		TrakDiag.Seg.SegList[18].McType := gCenterLoop_18;
+	TrakDiag.Seg.SegList[19].Name  := 'gCenterLoop_19';		TrakDiag.Seg.SegList[19].McType := gCenterLoop_19;
+	TrakDiag.Seg.SegList[20].Name  := 'gCenterLoop_20';		TrakDiag.Seg.SegList[20].McType := gCenterLoop_20;
+	TrakDiag.Seg.SegList[21].Name  := 'gCenterLoop_21';		TrakDiag.Seg.SegList[21].McType := gCenterLoop_21;
+	TrakDiag.Seg.SegList[22].Name  := 'gCenterLoop_22';		TrakDiag.Seg.SegList[22].McType := gCenterLoop_22;
+	TrakDiag.Seg.SegList[23].Name  := 'gCenterLoop_23';		TrakDiag.Seg.SegList[23].McType := gCenterLoop_23;
+	TrakDiag.Seg.SegList[24].Name  := 'gCenterLoop_24';		TrakDiag.Seg.SegList[24].McType := gCenterLoop_24;
+	TrakDiag.Seg.SegList[25].Name  := 'gCenterLoop_25';		TrakDiag.Seg.SegList[25].McType := gCenterLoop_25;
+	TrakDiag.Seg.SegList[26].Name  := 'gCenterLoop_26';		TrakDiag.Seg.SegList[26].McType := gCenterLoop_26;
+	TrakDiag.Seg.SegList[27].Name  := 'gCenterLoop_27';		TrakDiag.Seg.SegList[27].McType := gCenterLoop_27;
+	TrakDiag.Seg.SegList[28].Name  := 'gCenterLoop_28';		TrakDiag.Seg.SegList[28].McType := gCenterLoop_28;
+	TrakDiag.Seg.SegList[29].Name  := 'gCenterLoop_29';		TrakDiag.Seg.SegList[29].McType := gCenterLoop_29;
+	TrakDiag.Seg.SegList[30].Name  := 'gCenterLoop_30';		TrakDiag.Seg.SegList[30].McType := gCenterLoop_30;
+	TrakDiag.Seg.SegList[31].Name  := 'gCenterLoop_31';		TrakDiag.Seg.SegList[31].McType := gCenterLoop_31;
+	TrakDiag.Seg.SegList[32].Name  := 'gCenterLoop_32';		TrakDiag.Seg.SegList[32].McType := gCenterLoop_32;
+	TrakDiag.Seg.SegList[33].Name  := 'gCenterLoop_33';		TrakDiag.Seg.SegList[33].McType := gCenterLoop_33;
+	TrakDiag.Seg.SegList[34].Name  := 'gCell1_Enter_0';		TrakDiag.Seg.SegList[34].McType := gCell1_Enter_0;
+	TrakDiag.Seg.SegList[35].Name  := 'gCell1_Enter_1';		TrakDiag.Seg.SegList[35].McType := gCell1_Enter_1;
+	TrakDiag.Seg.SegList[36].Name  := 'gCell1_Load_0';		TrakDiag.Seg.SegList[36].McType := gCell1_Load_0;
+	TrakDiag.Seg.SegList[37].Name  := 'gCell1_Load_1';		TrakDiag.Seg.SegList[37].McType := gCell1_Load_1;
+	TrakDiag.Seg.SegList[38].Name  := 'gCell1_Load_2';		TrakDiag.Seg.SegList[38].McType := gCell1_Load_2;
+	TrakDiag.Seg.SegList[39].Name  := 'gCell1_Load_3';		TrakDiag.Seg.SegList[39].McType := gCell1_Load_3;
+	TrakDiag.Seg.SegList[40].Name  := 'gCell1_Load_4';		TrakDiag.Seg.SegList[40].McType := gCell1_Load_4;
+	TrakDiag.Seg.SegList[41].Name  := 'gCell1_Load_5';		TrakDiag.Seg.SegList[41].McType := gCell1_Load_5;
+	TrakDiag.Seg.SegList[42].Name  := 'gCell1_Load_6';		TrakDiag.Seg.SegList[42].McType := gCell1_Load_6;
+	TrakDiag.Seg.SegList[43].Name  := 'gCell1_Load_7';		TrakDiag.Seg.SegList[43].McType := gCell1_Load_7;
+	TrakDiag.Seg.SegList[44].Name  := 'gCell1_Load_8';		TrakDiag.Seg.SegList[44].McType := gCell1_Load_8;
+	TrakDiag.Seg.SegList[45].Name  := 'gCell1_Load_9';		TrakDiag.Seg.SegList[45].McType := gCell1_Load_9;
+	TrakDiag.Seg.SegList[46].Name  := 'gCell1_Load_10';		TrakDiag.Seg.SegList[46].McType := gCell1_Load_10;
+	TrakDiag.Seg.SegList[47].Name  := 'gCell1_Exit_0';		TrakDiag.Seg.SegList[47].McType := gCell1_Exit_0;
+	TrakDiag.Seg.SegList[48].Name  := 'gCell1_Exit_1';		TrakDiag.Seg.SegList[48].McType := gCell1_Exit_1;
+	TrakDiag.Seg.SegList[49].Name  := 'gCell1_Exit_2';		TrakDiag.Seg.SegList[49].McType := gCell1_Exit_2;
+	TrakDiag.Seg.SegList[50].Name  := 'gCell1_Exit_3';		TrakDiag.Seg.SegList[50].McType := gCell1_Exit_3;
+	TrakDiag.Seg.SegList[51].Name  := 'gCell2_Enter_0';		TrakDiag.Seg.SegList[51].McType := gCell2_Enter_0;
+	TrakDiag.Seg.SegList[52].Name  := 'gCell2_Enter_1';		TrakDiag.Seg.SegList[52].McType := gCell2_Enter_1;
+	TrakDiag.Seg.SegList[53].Name  := 'gCell2_Load_0';		TrakDiag.Seg.SegList[53].McType := gCell2_Load_0;
+	TrakDiag.Seg.SegList[54].Name  := 'gCell2_Load_1';		TrakDiag.Seg.SegList[54].McType := gCell2_Load_1;
+	TrakDiag.Seg.SegList[55].Name  := 'gCell2_Load_2';		TrakDiag.Seg.SegList[55].McType := gCell2_Load_2;
+	TrakDiag.Seg.SegList[56].Name  := 'gCell2_Load_3';		TrakDiag.Seg.SegList[56].McType := gCell2_Load_3;
+	TrakDiag.Seg.SegList[57].Name  := 'gCell2_Load_4';		TrakDiag.Seg.SegList[57].McType := gCell2_Load_4;
+	TrakDiag.Seg.SegList[58].Name  := 'gCell2_Load_5';		TrakDiag.Seg.SegList[58].McType := gCell2_Load_5;
+	TrakDiag.Seg.SegList[59].Name  := 'gCell2_Load_6';		TrakDiag.Seg.SegList[59].McType := gCell2_Load_6;
+	TrakDiag.Seg.SegList[60].Name  := 'gCell2_Load_7';		TrakDiag.Seg.SegList[60].McType := gCell2_Load_7;
+	TrakDiag.Seg.SegList[61].Name  := 'gCell2_Load_8';		TrakDiag.Seg.SegList[61].McType := gCell2_Load_8;
+	TrakDiag.Seg.SegList[62].Name  := 'gCell2_Load_9';		TrakDiag.Seg.SegList[62].McType := gCell2_Load_9;
+	TrakDiag.Seg.SegList[63].Name  := 'gCell2_Load_10';		TrakDiag.Seg.SegList[63].McType := gCell2_Load_10;
+	TrakDiag.Seg.SegList[64].Name  := 'gCell2_Exit_0';		TrakDiag.Seg.SegList[64].McType := gCell2_Exit_0;
+	TrakDiag.Seg.SegList[65].Name  := 'gCell2_Exit_1';		TrakDiag.Seg.SegList[65].McType := gCell2_Exit_1;
+	TrakDiag.Seg.SegList[66].Name  := 'gCell2_Exit_2';		TrakDiag.Seg.SegList[66].McType := gCell2_Exit_2;
+	TrakDiag.Seg.SegList[67].Name  := 'gCell2_Exit_3';		TrakDiag.Seg.SegList[67].McType := gCell2_Exit_3;
+
+	TrakDiag.Seg.SegCount := 68;
+
+	TrakDiag.Seg.SegListAdr := ADR(TrakDiag.Seg.SegList);
+
+	DiagFbs.Asm.ReadInfo.Assembly := ADR(gTestAssembly);
+	DiagFbs.Asm.ReadStatus.Assembly := ADR(gTestAssembly);
+
+	paperCore.ViewBoxCfg.MinX := -8.65558;
+	paperCore.ViewBoxCfg.MinY := -0.745;
+	paperCore.ViewBoxCfg.Width := 9.39115;
+	paperCore.ViewBoxCfg.Height := 0.86;
+END_ACTION 

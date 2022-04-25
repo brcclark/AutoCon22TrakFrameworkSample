@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.11.1.147 FileVersion="4.9"?>
+<?AutomationStudio Version=4.11.2.75 FileVersion="4.9"?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
   <Module Name="5LS182.6-2" Type="5LS182.6-2" Version="1.9.0.0">
     <Connection Connector="SL" TargetModule="PC" TargetConnector="SL1" />
@@ -710,10 +710,10 @@
     <Parameter ID="SpeedFilter" Location="DriveConfiguration/Segment" Value="UseAssemblySetting" />
   </Module>
   <Module Name="gCenterLoop_26" Type="8F1I01.AA66.xxxx-1" Version="1.0.0.2">
-    <Connection Connector="PLK1" TargetModule="gCenterLoop_25" TargetConnector="PLK2">
+    <Connection Connector="PLK1" TargetModule="gCenterLoop_25" TargetConnector="PLK2" NodeNumber="27">
       <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
-    <Connection Connector="PLK2" TargetModule="gCenterLoop_27" TargetConnector="PLK1">
+    <Connection Connector="PLK2" TargetModule="gCenterLoop_27" TargetConnector="PLK1" NodeNumber="27">
       <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="McTypeID" Location="DriveConfiguration" Value="LLMConfig" />

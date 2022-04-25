@@ -23,7 +23,10 @@
       <Property ID="JerkTime" Value="0.02" />
     </Selector>
     <Group ID="UserData">
-      <Property ID="Size" Value="28" />
+      <Property ID="Size" Value="20" />
+    </Group>
+    <Group ID="StateTransitions">
+      <Property ID="AutomaticRecontrol" Value="Active" />
     </Group>
   </Element>
 </Configuration>

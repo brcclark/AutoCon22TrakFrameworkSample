@@ -11,7 +11,7 @@ PROGRAM _INIT
 	loopDeciderFb.StationPars.Dest.Decel := 20.0;
 	loopDeciderFb.StationPars.Dest.Velocity := 1.0;
 	loopDeciderFb.StationPars.Dest.MoveType := MV_ROUTE_VELOCITY;
-	loopDeciderFb.StationPars.Dest.Color := COLOR_CYAN;
+	loopDeciderFb.StationPars.Dest.Color := TP_PURPLE;
 	
 	proc1Fb.DestList[0] := DEST_DECIDE_1;
 	proc1Fb.NumberOfDestinations := 1;
@@ -22,7 +22,7 @@ PROGRAM _INIT
 	proc1Fb.StationPars.Dest.Decel := 20.0;
 	proc1Fb.StationPars.Dest.Velocity := 1.5;
 	proc1Fb.StationPars.Dest.MoveType := MV_ROUTE_VELOCITY;
-	proc1Fb.StationPars.Dest.Color := COLOR_YELLOW;
+	proc1Fb.StationPars.Dest.Color := TP_YELLOW;
 	
 	
 	proc2Fb.DestList[0] := DEST_DECIDE_1;
@@ -34,6 +34,6 @@ PROGRAM _INIT
 	proc2Fb.StationPars.Dest.Decel := 20.0;
 	proc2Fb.StationPars.Dest.Velocity := 1.5;
 	proc2Fb.StationPars.Dest.MoveType := MV_ROUTE_VELOCITY;
-	proc2Fb.StationPars.Dest.Color := COLOR_RED;
+	proc2Fb.StationPars.Dest.Color := TP_RED;
 		
 END_PROGRAM

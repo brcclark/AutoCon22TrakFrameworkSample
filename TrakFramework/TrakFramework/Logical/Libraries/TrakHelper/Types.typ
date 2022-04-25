@@ -14,7 +14,7 @@ TYPE
 		DEST_PROCESS_3 := 30
 		);
 	shUserData : 	STRUCT 
-		ColorRGB : ARRAY[0..2]OF REAL;
+		Color : TrkPaperColorEnum;
 		ShId : STRING[10];
 		Destination : SystemDestinationsEnum;
 	END_STRUCT;
@@ -46,7 +46,7 @@ TYPE
 		DestinationCheck : BOOL;
 	END_STRUCT;
 	ProcWrapperDestParTyp : 	STRUCT 
-		Color : shColors_Typ;
+		Color : TrkPaperColorEnum;
 		MoveType : ProcWrapperMoveTypes;
 		Destination : SystemDestinationsEnum;
 		Velocity : REAL;
