@@ -20,17 +20,6 @@
           </Variable>
         </Variable>
       </GlobalVariables>
-      <Task Name="TrakDiag">
-        <Variable Name="paperCore">
-          <Variable Name="SvgTransform" />
-          <Variable Name="SvgContent" />
-          <Variable Name="ClickData" AutomaticEnable="True" />
-          <Variable Name="ReadClickID" />
-          <Variable Name="ClickID" />
-        </Variable>
-        <Variable Name="ShuttleUserData" AutomaticEnable="True" />
-        <Variable Name="TrakDiag" />
-      </Task>
     </Module>
   </DefaultView>
 </OpcUaSource>

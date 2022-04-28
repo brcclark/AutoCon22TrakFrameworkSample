@@ -11,6 +11,4 @@
 	<Styles refId="BuRThemeFlat2chartsStyles" />
 	<Styles refId="BuRThemeFlat2sequencerStyles" />
 	<Styles refId="BuRThemeFlat2ListStyles" />
-	<Styles refId="TrakMapWidgetStyles" />
-	
 </StylesSet>
