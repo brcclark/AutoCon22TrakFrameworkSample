@@ -10,8 +10,8 @@ PROGRAM _CYCLIC
 	//Error
 	//Reset
 	
-		MpAlarmXCore_0.MpLink := ADR(gAlarmXCore);
-	 MpAlarmXCore_0();
+	MpAlarmXCore_0.MpLink := ADR(gAlarmXCore);
+	MpAlarmXCore_0();
 	
 	CASE state OF
 		//******************************************************************** Idle State
