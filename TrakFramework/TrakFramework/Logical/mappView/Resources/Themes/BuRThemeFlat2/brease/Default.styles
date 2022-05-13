@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Styles id="BuRThemeFlat2defaultStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="BuRThemeFlat2defaultStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<!--button-->
 	
@@ -67,9 +68,9 @@
 		borderColor="#fff" 
 		mouseDownBorderWidth="0px 6px 0px 6px"
 		mouseDownBorderColor="#ff9900" 
-		backColor="#b4b4b4" 
-		mouseDownBackColor="#b4b4b4" 
-		checkedBackColor="#b4b4b4" 
+		backColor="#636363" 
+		mouseDownBackColor="#636363" 
+		checkedBackColor="#636363" 
 		checkedBorderColor="#ff9900" 
 		disabledBackColor="#d1d1d1" />
 		
@@ -174,7 +175,7 @@
 	
 	<Style id="default" xsi:type="widgets.brease.Label" 
 		fontSize="12px" 
-		textColor="#b4b4b4" 
+		textColor="#636363" 
 		backColor="transparent" 
 		borderStyle="none" 
 		padding="5px" />
@@ -196,7 +197,7 @@
 	<!--date time output-->
 	
 	<Style id="default" xsi:type="widgets.brease.DateTimeOutput" 
-		textColor="#b4b4b4" 
+		textColor="#636363" 
 		borderWidth="0px" 
 		fontSize="16px" 
 		backColor="transparent" 
@@ -275,7 +276,7 @@
 	<!--numeric output-->
 	
 	<Style id="default" xsi:type="widgets.brease.NumericOutput" 
-		textColor="#b4b4b4" 
+		textColor="#636363" 
 		borderWidth="0px" 
 		fontSize="16px" 
 		backColor="transparent" 
@@ -298,7 +299,7 @@
 	<!--text output-->
 	
 	<Style id="default" xsi:type="widgets.brease.TextOutput" 
-		textColor="#b4b4b4" 
+		textColor="#636363" 
 		fontSize="16px" 
 		backColor="transparent" 
 		bold="false" />
@@ -420,7 +421,7 @@
 	<Style id="default" xsi:type="widgets.brease.CheckBox" 
 		borderStyle="none" 
 		fontSize="16px" 
-		textColor="#d6d6d6" 
+		textColor="#A9A9A9" 
 		backColor="transparent" 
 		mouseDownTextColor="#d6d6d6" 
 		mouseDownBackColor="transparent" 
@@ -598,7 +599,7 @@
 	
 	<Style id="default" xsi:type="widgets.brease.ProfileGeneratorYAxisStepItem"
 		lineColor="#FF9900" 
-		editLineColor="#b4b4b4" 
+		editLineColor="#636363" 
 		editLineWidth="15px" />
 	
 	<!-- progress bar -->
@@ -710,7 +711,7 @@
 		thumbColor="#ff9900" 
 		trackColor="#cccccc"
 		borderWidth="0px"
-		textColor="#b4b4b4" 
+		textColor="#636363" 
 	/>
 	
 	<!--alarm list-->
@@ -910,46 +911,6 @@
 		textColor="rgba(255,255,255,1)"
 		fontSize="14px"
 		titleTextColor="rgba(255,255,255,1)"
-	/>
-	
-	<!-- version 5.13 widgets -->
-	
-	<Style id="default" xsi:type="widgets.brease.Joystick" 
-		borderStyle="none" 
-		thumbColor="rgba(255, 133, 0, 1)" 
-		indicatorColor="rgba(100, 100, 100, 1)"
-		backColor="rgba(204, 204, 204, 1)"
-	/>
-	
-	<Style id="default" xsi:type="widgets.brease.XYChart" 
-		backColor="rgba(0,0,0,0)"
-		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0"
-		borderWidth="1px"
-	disabledChartColor="rgba(240, 240, 240, 1)"    />
-	
-	<Style id="default" xsi:type="widgets.brease.XYChart.Graph" 
-	lineColor="#FF9900" />
-	
-	<Style id="default" xsi:type="widgets.brease.XYChart.XAxis"
-		color="rgba(71,71,71,1)"
-		textColor="rgba(255,255,255,1)"
-		fontSize="14px"
-		titleTextColor="rgba(255,255,255,1)"
-	/>
-	
-	<Style id="default" xsi:type="widgets.brease.XYChart.YAxis"
-		color="rgba(71,71,71,1)"
-		textColor="rgba(255,255,255,1)"
-		fontSize="14px"
-		titleTextColor="rgba(255,255,255,1)"
-	/>
-	
-	<!-- version 5.14 widgets -->
-	
-	<Style id="default" xsi:type="widgets.brease.UserList" 
-		headerBackColor="#808080" 
-		headerTextColor="#FFFFFF"
-		backColorSelectedRow="#ff9900"
 	/>
 	
 </Styles>

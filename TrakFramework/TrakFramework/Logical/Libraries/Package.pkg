@@ -17,5 +17,9 @@
     <Object Type="Library" Language="binary" Description="[mapp Motion] ACOPOS parameter ID library">McAcpPar</Object>
     <Object Type="Library" Language="binary" Description="The AsString Library contains FBKs for memory and character string handling.">asstring</Object>
     <Object Type="Library" Language="Binary" Description="Advanced alarm management">MpAlarmX</Object>
+    <Object Type="Library" Language="Binary" Description="a safe sprintf implementation">snprintf</Object>
+    <Object Type="Library" Language="ANSIC">brdkSTR</Object>
+    <Object Type="Library" Language="ANSIC">TrkDiag</Object>
+    <Object Type="Library" Language="ANSIC">TrkPaper</Object>
   </Objects>
 </Package>

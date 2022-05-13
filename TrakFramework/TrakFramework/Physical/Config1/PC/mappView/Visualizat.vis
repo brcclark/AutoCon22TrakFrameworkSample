@@ -15,7 +15,9 @@
   <Contents>
     <Content refId="content_trakmap" />
   </Contents>
-  <SnippetsSets />
+  <SnippetsSets>
+    <SnippetsSet refId="TrakMapSnippets" />
+  </SnippetsSets>
   <VariablesSets />
   <ExpressionsSets />
   <StartTheme themeRefId="BuRThemeFlat2" />

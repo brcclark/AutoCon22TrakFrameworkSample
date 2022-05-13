@@ -11,6 +11,17 @@
 		headerBorderWidth="0px" 
 		borderWidth="0px" 
 		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" />
+		
+	<Style id="SegmentDetails" xsi:type="system.brease.Dialog"
+		textAlign="left" 
+		backColor="rgba(235, 235, 235, 0)" 
+		borderWidth="2px" 
+		borderColor="rgba(40, 40, 45, 1)" 
+		headerBackColor="rgba(50, 50, 55, 1)" 
+		headerBorderColor="rgba(40, 40, 45, 1)" 
+		textColor="rgba(192, 192, 192, 1)" 
+		fontSize="15px"
+	/>	
 	
 	<Style id="default" xsi:type="system.brease.MessageBox"
 		backColor="#ccc"
@@ -49,121 +60,4 @@
 		textColor="#444"
 		cornerRadius="0px"
 		borderStyle="none" />
-		
-	<!-- version 5.14 configuration dialog style -->
-
-	<Style id="default" xsi:type="system.brease.TableConfigurationDialog"
-		headerBackColor="#808080" 
-		headerFontSize="20px" 
-		headerTextColor="#FFFFFF" 
-		headerBorderWidth="0px" 
-		borderWidth="0px" 
-		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0"
-		cornerRadius="0px 0px 0px 0px" 
-		policySuccessImageColor="#bfff05"
-		policyFailImageColor="#960c0c"
-		backColor="#222"
-		policySuccessTextColor="#bfff05"
-		policyFailTextColor="#960c0c"
-	/>
-	
-	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.Rectangle" 
-		lineColor="#b4b4b4"
-	/>
-	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.Image" 
-		imageColor="#b4b4b4"
-	/>
-
-	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.DropDownBox"
-		fontSize="16px" 
-		bold="false" 
-		textColor="#d6d6d6" 
-		backColor="#808080" 
-		mouseDownBackColor="#d6d6d6" 
-		disabledBackColor="#d1d1d1" 
-		mouseDownTextColor="#646464" 
-		cornerRadius="0px" 
-		listBackColor="#d6d6d6" 
-		listTextColor="#646464" 
-		borderWidth="0px 6px 0px 0px" 
-		mouseDownBorderWidth="0px 3px 0px 0px" 
-		borderColor="#ff9900" 
-		mouseDownBorderColor="#ff9900" 
-		activeTextColor="#fff" 
-		activeBackColor="#ff9900" 
-		listBorderWidth="0px" 
-		textAlign="center"
-	/>
-	
-	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.NumericInput" 
-		fontSize="16px" 
-		textColor="#d6d6d6"
-		borderWidth="0px 0px 0px 6px"
-		borderColor="#ff9900" 
-		activeBorderWidth="2px 2px 2px 2px" 
-		activeBorderColor="#ff9900" 
-		backColor="#808080" 
-		activeBackColor="#d6d6d6" 
-		activeTextColor="#ff9900" 
-		bold="false"
-	/>	
-	
-		
-	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.CheckBox" 
-		borderStyle="none" 
-		fontSize="16px" 
-		textColor="#d6d6d6" 
-		backColor="transparent" 
-		mouseDownTextColor="#d6d6d6" 
-		checkedTextColor="#d6d6d6"
-		mouseDownBackColor="transparent" 
-		disabledBackColor="transparent" 
-		disabledTextColor="#CCCCCC" 
-		bold="false" 
-	/>	
-	
-	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.GroupBox" 
-		headerBackColor="#d6d6d6" 
-		backColor="#808080" 
-		bold="false" 
-		fontSize="16px" 
-		textColor="#808080" 
-		borderWidth="0px 0px 0px 0px" 
-		borderColor="transparent"
-	/>
-	
-	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.TextInput" 
-		fontSize="16px" 
-		textAlign="center" 
-		textColor="#d6d6d6" 
-		borderWidth="0px 0px 0px 6px" 
-		borderColor="#ff9900" 
-		activeBorderColor="#d6d6d6" 
-		backColor="#808080" 
-		activeBackColor="#d6d6d6" 
-		activeTextColor="#808080" 
-		bold="false" 
-	/>
-	
-	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.DateTimeInput" 
-		fontSize="16px" 
-		textColor="#d6d6d6" 
-		borderWidth="0px 0px 0px 6px" 
-		borderColor="#FF9900" 
-		activeBorderColor="#d6d6d6" 
-		backColor="#808080" 
-		activeBackColor="#d6d6d6" 
-		activeTextColor="#808080" 
-		bold="false"  
-		textAlign="center"
-	/>
-	
-	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.Label"
-		fontSize="14px"
-		textColor="#b4b4b4" 
-		backColor="transparent"
-		borderStyle="none"
-		padding="2px" 
-	/>
-		
 </Styles>
